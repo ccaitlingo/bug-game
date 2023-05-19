@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PlayBugGame
+comment0.text=\r\n\ The\ PlayBugGame\ class\ brings\ together\ the\ GameStats,\ Converse,\ and\ Bug\r\n\ classes\ to\ play\ the\ game.\r\n\r\n\ @author\ Caitlin\ G.\r\n\ @version\ 4.10.23\r\n
+comment1.params=
+comment1.target=PlayBugGame()
+comment1.text=\r\n\ Constructor\ for\ PlayBugGame\ with\ no\ parameters.\ Plays\ game\ and\ prints\r\n\ out\ final\ stats.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Main\ method\ for\ PlayBugGame.\ Simply\ makes\ a\ new\ instance\ of\ the\r\n\ game.\r\n
+comment3.params=g\ b
+comment3.target=void\ winLose(GameStats,\ Bug)
+comment3.text=\r\n\ Helps\ the\ GamesStats\ class\ increment\ wins\ and\ loses.\r\n\ @param\ g\ A\ GameStats\ object\ that\ keeps\ track\ of\ wins/loses.\r\n\ @param\ b\ The\ bug\ in\ the\ game.\r\n
+comment4.params=
+comment4.target=boolean\ greeting()
+comment4.text=\r\n\ Tells\ the\ user\ to\ enter\ their\ name\ or\ quit.\ Sets\ the\ instance\r\n\ variable\ name\ to\ their\ name\ or\ to\ a\ default\ value.\r\n\ \r\n\ This\ method\ and\ instance\ variable\ name\ were\ moved\ from\ Converse\ class\r\n\ because\ I\ liked\ having\ the\ loop\ in\ the\ PlayBugGame\ class\ instead\ of\r\n\ the\ converse\ class.\ I\ didn't\ want\ the\ player\ to\ have\ to\ make\ a\ new\ \r\n\ name\ each\ time,\ but\ I\ did\ want\ to\ be\ able\ to\ encapsulate\ converse\ \r\n\ methods\ in\ a\ single\ class\ that\ be\ run\ again\ and\ again\ easily.\ Also,\ \r\n\ this\ way,\ the\ Bug\ and\ Converse\ class\ have\ a\ cleaner\ way\ of\ \r\n\ communicating\ (through\ a\ third\ middle-man\ class,\ PlayBugGame),\ \r\n\ instead\ of\ Converse\ class\ calling\ Bug\ methods\ and\ all\ game\ play\ \r\n\ happening\ inside\ Converse.\r\n\ \r\n\ @return\ boolean\ Returns\ whether\ the\ answer\ is\ "quit."\r\n
+numComments=5

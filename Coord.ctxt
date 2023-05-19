@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Coord
+comment0.text=\r\n\ The\ Coord\ class\ stores\ coordinates\ (row,\ col).\r\n\r\n\ @author\ Caitlin\ G.\r\n\ @version\ 2.28.23\r\n
+comment1.params=row\ col
+comment1.target=Coord(char,\ int)
+comment1.text=\r\n\ Constructor\ for\ Coord.\ Initializes\ instance\ variables\r\n\ row\ and\ col,\ making\ adjustments\ as\ needed.\r\n\ @param\ row\ The\ row\ as\ a\ character\ value.\r\n\ @param\ col\ The\ col\ starting\ at\ 1.\r\n
+comment2.params=row\ col
+comment2.target=Coord(int,\ int)
+comment2.text=\r\n\ Other\ constructor\ for\ Coord.\ Initializes\ instance\r\n\ variables\ row\ and\ col.\r\n\ @param\ row\ The\ row.\r\n\ @param\ col\ The\ col.\r\n
+comment3.params=coord
+comment3.target=Coord\ add(Coord)
+comment3.text=\r\n\ Adds\ a\ coordinate\ to\ the\ coordinate\ it\ is\ called\ on\ and\ \r\n\ returns\ a\ copy\ of\ the\ results.\ Does\ not\ actually\ modify\r\n\ the\ coordinate\ it\ is\ called\ on.\r\n\ @param\ coord\ The\ coordinate\ that\ is\ being\ added.\r\n\ @return\ Coord\ The\ modified/"added"\ coordinate.\r\n
+numComments=4

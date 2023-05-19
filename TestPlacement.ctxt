@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestPlacement
+comment0.text=\r\n\ The\ test\ class\ for\ testing\ placement.\ \ \r\n\r\n\ @author\ \ Prairie\ Goodwin\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ testStartQuit()
+comment2.params=
+comment2.target=void\ testStartQuitUpper()
+comment3.params=
+comment3.target=void\ testStart()
+numComments=4

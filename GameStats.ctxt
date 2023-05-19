@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GameStats
+comment0.text=\r\n\ The\ GameStats\ class\ keeps\ track\ of\ the\ game\ stats.\ It\ increments\r\n\ wins\ and\ loses\ and\ shows\ a\ final\ summary\ if\ printed.\r\n\r\n\ @author\ Caitlin\ G.\r\n\ @version\ 4.10.23\r\n
+comment1.params=
+comment1.target=GameStats()
+comment1.text=\r\n\ Constructor\ for\ GameStats.\ Sets\ all\ stats\ to\ 0.\r\n
+comment2.params=
+comment2.target=void\ win()
+comment2.text=\r\n\ Increments\ wins\ and\ total\ games.\r\n
+comment3.params=
+comment3.target=void\ lose()
+comment3.text=\r\n\ Increments\ losses\ and\ total\ games.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ When\ a\ GameStats\ object\ is\ printed,\ shows\ a\ summary\ of\ stats.\r\n\ @return\ String\ A\ string\ stating\ number\ of\ games\ lost,\ won,\r\n\ and\ played.\r\n
+numComments=5

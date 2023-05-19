@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=MyTest
+comment0.text=\r\n\ Caitlin's\ test\ class\ for\ methods\ in\ Bug,\ GameStats,\ Floor,\ etc.\r\n\ Note\ that\ some\ methods\ must\ be\ made\ public\ in\ order\ to\ test.\r\n\r\n\ @author\ \ Caitlin\ Gong\r\n\ @version\ 4.10.23\r\n
+comment1.params=
+comment1.target=void\ BugConstructor1()
+comment10.params=
+comment10.target=void\ moveTest()
+comment11.params=
+comment11.target=void\ addTest()
+comment2.params=
+comment2.target=void\ BugConstructor2()
+comment3.params=
+comment3.target=void\ startWalkingTest()
+comment3.text=\r\n\ \ \ \ @Test\r\n\ \ \ \ public\ void\ isFloorFullTest(){\r\n\ \ \ \ \ \ \ \ Bug\ b\ \=\ new\ Bug(3,\ new\ Coord(1,1));\r\n\ \ \ \ \ \ \ \ b.f.floor\ \=\ new\ char[][]{{'X',\ 'X',\ 'X'},\ {'X',\ 'X',\ 'E'},\ {'X',\ 'S',\ 'X'}};\r\n\ \ \ \ \ \ \ \ assertEquals(b.isFloorFull(),\ true);\r\n\ \ \ \ \ \ \ \ b.f.floor\ \=\ new\ char[][]{{'\ ',\ 'X',\ 'X'},\ {'X',\ 'X',\ 'E'},\ {'X',\ 'S',\ 'X'}};\r\n\ \ \ \ \ \ \ \ assertEquals(b.isFloorFull(),\ false);\r\n\ \ \ \ }\r\n
+comment4.params=
+comment4.target=void\ isWinnerTest()
+comment5.params=
+comment5.target=void\ gameStatsConstructor()
+comment6.params=
+comment6.target=void\ winTest()
+comment7.params=
+comment7.target=void\ loseTest()
+comment8.params=
+comment8.target=void\ updateFloorTest()
+comment9.params=
+comment9.target=void\ isValidMoveTest()
+numComments=12
